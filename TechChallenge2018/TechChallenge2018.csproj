@@ -96,9 +96,19 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="GameData\CityConnection.cs" />
+    <Compile Include="GameData\DataRepository.cs" />
+    <Compile Include="GameData\Enums\CardColor.cs" />
     <Compile Include="GameData\Enums\CityName.cs" />
     <Compile Include="GameData\Enums\TrainColor.cs" />
+    <Compile Include="GameData\Enums\TurnAction.cs" />
     <Compile Include="GameData\GameBoard.cs" />
+    <Compile Include="GameData\GameState.cs" />
+    <Compile Include="GameData\PlayerData.cs" />
+    <Compile Include="GameData\PlayerState.cs" />
+    <Compile Include="GameData\Route.cs" />
+    <Compile Include="GameData\Turn.cs" />
+    <Compile Include="Players\PlayerBase.cs" />
+    <Compile Include="GameEngine.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

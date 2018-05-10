@@ -1,16 +1,17 @@
 ﻿namespace TechChallenge2018.GameData
 {
     using System.Collections.Generic;
+    using Windows.Security.Cryptography.Core;
     using TechChallenge2018.GameData.Enums;
     using TechChallenge2018.Players;
 
-    public class GameBoard
+    public class GameState
     {
         
 
-        public GameBoard()
-        {
+        //public List<PlayerState> GetPlayerState()
+        //{
             
-        }
+        //}
     }
 }
