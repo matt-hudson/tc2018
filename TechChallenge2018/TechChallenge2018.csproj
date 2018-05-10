@@ -107,6 +107,7 @@
     <Compile Include="GameData\PlayerState.cs" />
     <Compile Include="GameData\Route.cs" />
     <Compile Include="GameData\Turn.cs" />
+    <Compile Include="GameData\Util\ListExtensions.cs" />
     <Compile Include="Players\PlayerBase.cs" />
     <Compile Include="GameEngine.cs" />
     <Compile Include="MainPage.xaml.cs">
